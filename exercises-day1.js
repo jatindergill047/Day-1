@@ -52,40 +52,33 @@ console.log(sumOfNumbers(3, 7));
 console.log(sumOfNumbers(2, 3));
 //6. Create a function `sumOfLowNumbers` that takes 5 numbers and returns the sum of all numbers that are less than or equal to 6.
 
-function sumOfLowNumbers(){
+ var a,b,c,d,e;
+ a=4;
+ b=77;
+ c=9;
+ d=2;
+ e=4;
 
-var no1 = 1;
-var no2 = 4;
-var no3 = 5;
-var no4 = 9;
-var no5 = 3;
-var sum = 0;
-
-    if (no1 <= 6){
-        sum = sum+no1;        
-    }
-     if (no2 <= 6){
-        sum = sum+no2;
-        
-        if (no3 <= 6) {
-            sum = sum+no3;            
-        }
-        if(no4 <= 6){
-            sum = sum+no4;            
-            if(no5 <= 6) {
-                sum = sum+no5;                
-            }
-        }
-        else {
-            sum = sum+no5;
-        }
-    }
-
-console.log("result is = " +sum);
-
-}
-
-sumOfLowNumbers();
+ function abc(n1,n2,n3,n4,n5) {
+     sum=0;
+     if(n1<=6){
+         sum = sum+n1;
+     }
+     if(n2<=6){
+         sum = sum+n2;
+     }
+     if(n3<=6){
+         sum = sum+n3;
+     }
+     if(n4<=6){
+         sum = sum+n4;
+     }
+     if(n5<=6){
+         sum = sum+n5;
+     }
+     return sum;
+ }
+ console.log(abc(a,b,c,d,e));
 
 //7. Go to https://pages.github.com/ and read through the tutorial to create a Github page.
 // Choose Project site, Start from scratch. When you're finished, link your new project page here.
